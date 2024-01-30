@@ -1,0 +1,12 @@
+.services button{
+    border: 1px solid gray;
+    padding: 0.25rem 0.5rem;
+}
+
+.services button:hover{
+    color: white;
+}
+
+.links li:hover{
+    text-decoration: underline;
+}

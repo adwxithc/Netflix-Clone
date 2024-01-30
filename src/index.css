@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   color: white;
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+   background-color:#111 ;
+}
+
+button{
+   
+    padding: 0.4rem 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.play-button{
+    background-color: white;
+    color: #111;
+}
+.play-button:hover{
+    background-color: rgba(240, 238, 238, 0.91);
+}

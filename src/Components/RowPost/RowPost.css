@@ -1,0 +1,14 @@
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.hover-video {
+    /* Existing styles for the YouTube player */
+  
+    transition: transform 0.2s ease-in-out;
+  }
+  .hover-video :hover{
+    transform: scale(1.5);
+  
+  }

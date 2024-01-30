@@ -1,0 +1,65 @@
+.navBar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+     width:100%;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 60px;
+    height: 68px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+  
+}
+.scrolled{
+    background-color: rgb(20,20,20);
+}
+
+.logo{
+   margin-right:1.5rem ;
+    max-width: 90px;
+}
+.navigation{
+   
+    display: flex;
+   
+}
+
+.primary-navigation{
+  
+
+    color: white;
+    display: flex;
+   align-items: center;
+}
+.primary-navigation li{
+    font-size: 0.9rem;
+    list-style: none;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.secondary-navigation{
+
+display: flex;
+
+position: fixed;
+right: 60px;
+}
+
+.avathar{
+    border-radius: 5px;
+    width: 2.1rem;
+}
+
+.nav-search{
+    font-size: 1.8rem;
+    margin-right: 1.4rem;
+    
+}
+.nav-bell{
+    font-size: 1.5rem;
+    margin-right: 1.4rem;
+
+}
